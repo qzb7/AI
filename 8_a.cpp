@@ -35,8 +35,8 @@ int mhd(string s)
     {
         if (s[i] != '0')
         {
-            int dx = abs((s[i] - '0') / 3 - i / 3);
-            int dy = abs((s[i] - '0') % 3 - i % 3);
+            int dx = abs((s[i] - '1') / 3 - i / 3);
+            int dy = abs((s[i] - '1') % 3 - i % 3);
             d += dx + dy;
         }
     }
